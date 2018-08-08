@@ -1,0 +1,83 @@
+/* 头部 start*/
+header {
+	background-color: #fff;
+	padding: 15px;
+	margin-bottom: 15px;
+	h3 {
+		.sc(15px,#000);
+		font-weight: bold;
+	}
+	p {
+		margin: 5px 0;
+		height: 25px;
+		line-height: 25px;
+		&.iconXia {
+			text-align:center;
+			i {
+				color:#999;
+			}
+		}
+	}
+	p span, p a{
+		vertical-align: bottom;
+		display: inline-block;
+		.sc(13px,#999999);
+	}
+	p a {
+		color:#3396fd;
+	}
+	p span:nth-child(1) {
+		width: 80px;
+	}
+	p span:nth-child(2) {
+		width: 12%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	p span.sendTime {
+		width: 60%;
+	}
+	p span.file {
+		width: 80px;
+	}
+}
+/* 头部 end */
+/* 内容 start*/
+section {
+	padding: 15px;
+	.wh(100%,100vh);
+	background-color: #fff;
+}
+/* 内容 end */
+/* 底部控件 start*/
+footer {
+	.wh(100%,80px);
+	position: fixed;
+	bottom: 0;
+	.fj();
+	div {
+		width: 25%;
+		padding-top: 5px;
+		text-align: center;
+		p {
+			margin-bottom: 5px;
+			span.iconSpan {
+				display: inline-block;
+				.wh(40px,40px);
+				line-height: 40px;
+				background-color: #3396fd;
+				border-radius: 50%;
+				i {
+					font-size: 20px;
+					color:#fff;
+				}
+			}
+			
+		}
+		span {
+			.sc(13px,#3396fd);
+		}
+	}
+}
+/* 底部控件 end*/
